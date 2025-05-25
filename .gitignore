@@ -1,0 +1,16 @@
+# Ignore Visual Studio temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.pch
+*.ncb
+*.opendb
+
+# Ignore build output folders
+bin/
+obj/
+
+# Optional: ignore Resharper and other tool files if you use them
+_ReSharper.*/
+*.ReSharper.user
