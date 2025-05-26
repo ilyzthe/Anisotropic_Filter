@@ -5,7 +5,7 @@ from PIL import Image
 
 # ============================================================
 
-cube_1 = segyio.tools.cube(r'stack_0_18.sgy')[:, 100, :].T
+cube_1 = segyio.tools.cube(r'stack_0_18.sgy')[:, 50, :].T
 cube_2 = np.loadtxt(r'filtered_output_2.txt')
 
 

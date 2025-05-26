@@ -8,7 +8,7 @@ int main() {
 
     setlocale(0, "rus");
 
-    const double iter = 35;
+    const double iter = 30;
     const double deltaT = 0.2;
     const double k = 15;
 
@@ -20,34 +20,35 @@ int main() {
 
     //===========================================================
 
-    cout << "Запуск Python для сохранения форматов..." << endl;
+    cout << "Сохранение форматов..." << endl;
 
     int format = system("python Python_p1.py");
 
     if (format == 0) {
-        cout << "Python-скрипт успешно выполнен" << endl;
+        cout << "Успешно выполнено 1 " << endl;
     }
     else {
-        cerr << "Ошибка при запуске Python-скрипта!" << endl;
+        cerr << "Ошибка при запуске скрипта!" << endl;
     }
 
     //===========================================================
 
     cout << "Запуск фильтрации..." << endl;
+
     run_filter(input_path_image, output_path_image, iter, deltaT, k); //фото
     run_filter(input_path_cube, output_path_cube, iter, deltaT, k); //куб
 
     //===========================================================
 
-    cout << "Фильтрация завершена. Запуск Python..." << endl;
+    cout << "Фильтрация завершена" << endl;
 
     int result = system("python Python_p2.py");
 
     if (result == 0) {
-        cout << "Python-скрипт успешно выполнен" << endl;
+        cout << "Успешно выполнено 2" << endl;
     }
     else {
-        cerr << "Ошибка при запуске Python-скрипта!" << endl;
+        cerr << "Ошибка при запуске скрипта!" << endl;
     }
 
     return 0;
