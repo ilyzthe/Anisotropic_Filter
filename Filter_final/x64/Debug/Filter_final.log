@@ -1,6 +1,2 @@
-﻿  filter_engine.cpp
-C:\Users\Ilya\Desktop\Not_study\NSU\Filter_final\Filter_final\filter_engine.cpp(72,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Ilya\Desktop\Not_study\NSU\Filter_final\Filter_final\filter_engine.cpp(73,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  main.cpp
-  Создание кода...
+﻿  main.cpp
   Filter_final.vcxproj -> C:\Users\Ilya\Desktop\Not_study\NSU\Filter_final\x64\Debug\Filter_final.exe

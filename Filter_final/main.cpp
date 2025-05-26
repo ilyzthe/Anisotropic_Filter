@@ -8,7 +8,7 @@ int main() {
 
     setlocale(0, "rus");
 
-    const double iter = 30;
+    const double iter = 20;
     const double deltaT = 0.2;
     const double k = 15;
 
